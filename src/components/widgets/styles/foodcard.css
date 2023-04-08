@@ -1,6 +1,6 @@
 .food-card {
   width: 20vw;
-  height: 350px;
+  height: auto;
   background-color: #edefee;
   border-radius: 15px 15px 0 0;
   cursor: pointer;

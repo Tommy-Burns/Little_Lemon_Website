@@ -1,0 +1,33 @@
+.reviews {
+  display: flex;
+}
+
+.r-card {
+  width: 30vw;
+  height: auto;
+  background: #d9d9d9;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.r-card .rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.r-card .rate h4 {
+  color: gray;
+}
+
+.r-card .person {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.r-card img {
+  width: 40%;
+  height: 40%;
+}
