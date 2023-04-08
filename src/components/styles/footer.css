@@ -1,0 +1,23 @@
+footer {
+  background: #495e57;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  /* align-items: center; */
+}
+
+footer img {
+  background: white;
+  height: max-content;
+}
+
+footer h3 {
+  color: white;
+}
+
+footer .footer-links {
+  color: rgb(201, 201, 201);
+  margin-top: 12px;
+  font-style: italic;
+  cursor: pointer;
+}

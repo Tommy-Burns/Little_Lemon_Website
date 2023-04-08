@@ -1,0 +1,30 @@
+#about {
+  margin: 50px 10px 0 12vw;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+#about .left {
+  flex-basis: 50%;
+}
+
+#about .left h1 {
+  font-size: 3rem;
+}
+
+#about .left h3 {
+  color: gray;
+}
+
+#about .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#about .right img {
+  width: 350px;
+}
