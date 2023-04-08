@@ -1,0 +1,23 @@
+#specials {
+  margin-top: 200px;
+  padding: 30px 20px;
+}
+
+#specials .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25%;
+}
+
+#specials .top h1 {
+  font-size: 3rem;
+}
+
+#specials .bottom {
+  /* background-color: red; */
+  margin-top: 3%;
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+}

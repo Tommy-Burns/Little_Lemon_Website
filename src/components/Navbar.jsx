@@ -12,7 +12,9 @@ class Navbar extends React.Component {
     return (
       <nav>
         <div className="logo">
-          <img src={logo} alt="Logo" onClick={this.scrollToTop} />
+          <Link spy={true} smooth={true} offset={-60} duration={300} to="home">
+            <img src={logo} alt="Logo" onClick={this.scrollToTop} />
+          </Link>
         </div>
         <div className="navlinks">
           <Link

@@ -1,0 +1,40 @@
+#home {
+  height: 50vh;
+  background: #495e57;
+  padding: 80px 10vw 0px 10vw;
+  display: flex;
+  gap: 10%;
+  flex-direction: row;
+  position: relative;
+}
+
+#home .left {
+  flex: 60%;
+}
+
+#home .left h1 {
+  font-size: 3rem;
+  color: rgb(244, 206, 20);
+}
+
+#home .left h3 {
+  font-size: 1.3rem;
+  color: rgb(250, 250, 250);
+}
+
+#home .left p {
+  padding-top: 15px;
+  font-size: 1.1rem;
+  color: rgb(250, 250, 250);
+}
+
+#home .right {
+  margin-top: 5%;
+  width: 20vw;
+  height: 25vw;
+  background: url("../../assets/imgs/restauranfood.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
