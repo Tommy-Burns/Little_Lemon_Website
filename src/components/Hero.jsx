@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/hero.css";
-import chef from "../assets/imgs/restauranfood.jpg";
+import MoveToBtn from "./widgets/MoveToBtn";
 
 const Hero = () => {
   return (
@@ -14,11 +14,9 @@ const Hero = () => {
           recipes served with a modern twist.
         </p>
         <br />
-        <button>Reserve a table</button>
+        <MoveToBtn name="Reserve a table" to="booking" />
       </div>
-      <div className="right">
-        {/* <img src={chef} alt="Chef holding hot dogs" /> */}
-      </div>
+      <div className="right"></div>
     </section>
   );
 };
